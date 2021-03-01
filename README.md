@@ -2,22 +2,22 @@
 EECS 768 -Project 1
 M. Atif Siddiqui 
 
-Datasets 
+## Datasets 
 I used the following datasets form UCI-ML 
 1) Iris Species
 2) Pima Indians Diabetes Database 
 
-Models 
+## Models 
 1) For Iris Species dataset I have implemented the K-Means algorithm. 
 2) For Diabetes dataset I have implemented the K-nearest Neighbors algorithm.
 
-Dataset: Iris Species
-        Data Analysis
-            1) Loaded the dataset in a dataframe using pandas.
-            2) Checked the data for null values. 
-            3) created a new dataframe (cluster_data) to work on two columns(SepalLength, PetalLength) of the previous dataframe.
-            4) Sorted the new dataframe(cluster_data) 
-            5) Converted the dataframe(cluster_data) to an numpy array.
+## Dataset: Iris Species
+       Data Analysis
+       1) Loaded the dataset in a dataframe using pandas.
+       2) Checked the data for null values. 
+       3) created a new dataframe (cluster_data) to work on two columns(SepalLength, PetalLength) of the previous dataframe.
+       4) Sorted the new dataframe(cluster_data) 
+        5) Converted the dataframe(cluster_data) to an numpy array.
             6) I found out that the last row of our array contain the name of the columns.
             7) Created a new array(cluster_array) that excludes the last row of our previous array.
 
@@ -42,7 +42,7 @@ Dataset: Iris Species
                 Input: takes in clusters and the cluster_array
                 Output: return a list sum_squares
                 
-Dataset: Pima Indians Diabetes Database 
+## Dataset: Pima Indians Diabetes Database 
           Data Analysis
             1) Loaded the dataset in a dataframe using pandas.        
             2) Checked the data for null values.
